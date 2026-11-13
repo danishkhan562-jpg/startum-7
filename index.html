@@ -1,0 +1,113 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STARTUM 7 | Your Skin, Our Science</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#faf9f4;color:#263b30}
+header{padding:22px 8%;display:flex;justify-content:space-between;align-items:center;background:#fff}
+.logo{font-size:26px;font-weight:bold;letter-spacing:3px}
+nav a{margin-left:22px;text-decoration:none;color:#263b30;font-size:14px}
+.hero{min-height:520px;padding:90px 9%;background:#e5ebdf;display:flex;align-items:center}
+.hero div{max-width:570px}
+.hero small{letter-spacing:4px;color:#71816b}
+h1{font-size:58px;line-height:1.1;margin:22px 0}
+.hero p{font-size:17px;line-height:1.8;color:#59675c}
+.btn{display:inline-block;margin-top:25px;padding:15px 28px;background:#294b39;color:white;text-decoration:none;border-radius:3px}
+section{padding:75px 8%}
+.heading{text-align:center;margin-bottom:40px}
+.heading h2{font-size:34px;margin-bottom:12px}
+.heading p{color:#758176}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.card{background:white;padding:18px;text-align:center;border-radius:5px}
+.bottle{height:230px;background:#e8eee3;margin-bottom:20px;display:flex;align-items:center;justify-content:center}
+.bottle span{width:105px;height:170px;border-radius:12px 12px 22px 22px;background:#c5d1bc;display:flex;align-items:center;justify-content:center;text-align:center;padding:10px;font-size:13px;color:#294b39;font-weight:bold;box-shadow:5px 8px 15px #b8c2b4}
+.card h3{font-size:18px;margin:15px 0}
+.card p{font-size:14px;color:#758176;line-height:1.6}
+.price{font-weight:bold;margin:15px}
+.card button{border:0;background:#294b39;color:white;padding:12px 22px;cursor:pointer}
+.about{background:#e8eee3;text-align:center}
+.about p{max-width:700px;margin:20px auto;line-height:1.9;color:#59675c}
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:center}
+.values div{padding:25px;background:white}
+.values h3{margin-bottom:12px}
+footer{background:#243e30;color:white;text-align:center;padding:35px}
+footer p{margin:10px}
+@media(max-width:700px){
+header{flex-direction:column;gap:18px}
+nav a{margin:0 7px;font-size:12px}
+h1{font-size:42px}
+.products,.values{grid-template-columns:1fr}
+.hero{padding:70px 8%}
+}
+</style>
+</head>
+<body><header>
+<div class="logo">STARTUM 7</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header><div class="hero" id="home">
+<div>
+<small>YOUR SKIN, OUR SCIENCE</small>
+<h1>Healthy Skin.<br>Natural Confidence.</h1>
+<p>Discover thoughtful skincare powered by science and inspired by nature. Simple routines, beautiful results.</p>
+<a href="#products" class="btn">EXPLORE PRODUCTS</a>
+</div>
+</div><section id="products">
+<div class="heading">
+<h2>Our Bestsellers</h2>
+<p>Skincare essentials made with care.</p>
+</div><div class="products">
+<div class="card">
+<div class="bottle"><span>STARTUM 7<br>HYDRATING<br>BARRIER GEL</span></div>
+<h3>Hydrating Barrier Water Gel</h3>
+<p>Oil-free hydration with Ceramides + Centella Asiatica.</p>
+<div class="price">PKR 2,499</div>
+<button onclick="alert('Thank you for your interest! Contact us to order.')">SHOP NOW</button>
+</div><div class="card">
+<div class="bottle"><span>STARTUM 7<br>CLIMATE-SHIELD<br>SPF 50+</span></div>
+<h3>Climate-Shield Invisible Sunscreen</h3>
+<p>Weightless SPF 50+ PA++++ fluid with zero white cast.</p>
+<div class="price">PKR 2,899</div>
+<button onclick="alert('Thank you for your interest! Contact us to order.')">SHOP NOW</button>
+</div><div class="card">
+<div class="bottle"><span>STARTUM 7<br>RESTORATIVE<br>ESSENCE TONER</span></div>
+<h3>Restorative Essence Toner</h3>
+<p>Hydrating prep-step toner with 5% Niacinamide + Rice Extract.</p>
+<div class="price">PKR 1,999</div>
+<button onclick="alert('Thank you for your interest! Contact us to order.')">SHOP NOW</button>
+</div>
+</div>
+</section><section class="about" id="about">
+<div class="heading">
+<h2>About STARTUM 7</h2>
+</div>
+<p>We believe skincare should be simple, effective and thoughtful. STARTUM 7 brings together science-inspired formulas and nature-inspired ingredients to make everyday skincare feel special.</p>
+<a href="#products" class="btn">DISCOVER OUR COLLECTION</a>
+</section><section>
+<div class="heading">
+<h2>Our Philosophy</h2>
+<p>Everything your skin deserves.</p>
+</div>
+<div class="values">
+<div><h3>🌿 Nature Inspired</h3><p>Thoughtfully selected ingredients.</p></div>
+<div><h3>🔬 Science Led</h3><p>Skincare inspired by research.</p></div>
+<div><h3>✨ Everyday Care</h3><p>Simple routines for daily care.</p></div>
+</div>
+</section><section id="contact" style="text-align:center">
+<div class="heading">
+<h2>Let's Connect</h2>
+<p>Have questions about your skincare routine?</p>
+<a class="btn" href="mailto:hello@startum7.com">CONTACT US</a>
+</div>
+</section><footer>
+<h2>STARTUM 7</h2>
+<p>Your Skin, Our Science.</p>
+<p>© 2026 STARTUM 7. All Rights Reserved.</p>
+</footer></body>
+  </html>
